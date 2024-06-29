@@ -1,14 +1,18 @@
-import "./CampoTexto.css"
+import React from 'react';
+import './CampoTexto.css';
 
-const CampoTexto = (props) =>{
-    return (
+const CampoTexto = ({ obrigatorio, label, placeholder, valor, aoAlterado }) => {
+  return (
     <div className="campo-texto">
-        <label>
-            {props.label}
-        </label>
-        <input placeholder={props.placeholder}/>
+      <label>{label}</label>
+      <input 
+        required={obrigatorio} 
+        placeholder={placeholder} 
+        value={valor} 
+        onChange={e => aoAlterado(e.target.value)}
+      />
     </div>
-    )
-}
+  );
+};
 
-export default CampoTexto
+export default CampoTexto;

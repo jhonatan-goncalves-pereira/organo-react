@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Formulario.css */
+.formulario {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* CampoTexto.css */
+.campo-texto {
+  margin-bottom: 15px;
+}
+
+.campo-texto label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.campo-texto input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+/* ListaSuspensa.css */
+.lista-suspensa {
+  margin-bottom: 15px;
+}
+
+.lista-suspensa label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.lista-suspensa select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+/* Botao.css */
+.botao {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.botao:hover {
+  background-color: #45a049;
+}
