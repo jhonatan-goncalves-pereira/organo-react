@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+Claro, Jhonatan! Aqui está um exemplo de um README para o seu projeto:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Organo React
 
-In the project directory, you can run:
+Bem-vindo ao projeto Organo React, um aplicativo web para gerenciamento de colaboradores. Este projeto foi desenvolvido usando React e está disponível para visualização em [Vercel](https://organo-react-pi-seven.vercel.app/).
 
-### `npm start`
+## Sumário
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Descrição](#descrição)
+- [Funcionalidades](#funcionalidades)
+- [Requisitos](#requisitos)
+- [Instalação](#instalação)
+- [Execução](#execução)
+- [Contato](#contato)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Descrição
 
-### `npm test`
+O Organo React é uma aplicação simples de gerenciamento de colaboradores onde você pode adicionar, visualizar e categorizar colaboradores por times. Este projeto foi desenvolvido com foco em aprender e praticar React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades
 
-### `npm run build`
+- Adicionar novos colaboradores
+- Visualizar colaboradores em categorias diferentes
+- Interface amigável e fácil de usar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/en/) (versão 14 ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
 
-### `npm run eject`
+## Instalação
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone o repositório:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/seu-usuario/organo-react.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navegue até o diretório do projeto:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   cd organo-react
+   ```
 
-## Learn More
+3. Instale as dependências:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ou, se estiver usando yarn:
 
-### Code Splitting
+   ```bash
+   yarn install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Execução
 
-### Analyzing the Bundle Size
+Para iniciar o servidor de desenvolvimento, execute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+ou, se estiver usando yarn:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+yarn start
+```
 
-### Advanced Configuration
+O aplicativo estará disponível em `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contato
 
-### Deployment
+Desenvolvido por [Jhonatan Gonçalves Pereira](https://www.linkedin.com/in/jhonatan-goncalves-pereira/). Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este README oferece uma visão geral do projeto, incluindo descrição, funcionalidades, requisitos, instruções de instalação e execução, bem como informações de contato. Certifique-se de ajustar o link do repositório do GitHub conforme necessário.
